@@ -16,7 +16,7 @@ body
 
 /* basic text styles */
 
-p, td 
+p, td, ul
 {
 	letter-spacing: 0.2em;
 	color: #515151;
@@ -45,10 +45,9 @@ h3 {
 	border-bottom-width: 1px;
 	border-bottom-style: inset;
 	border-bottom-color: #9B9744;
-	padding: 4px 0;
+	padding: 10px 100px;
 	font-variant: small-caps;
 	color: #515151;
-	padding: 0 40px;
 }
 h4
 {
@@ -56,6 +55,7 @@ h4
 	font-family: Avenir;
 	letter-spacing: 0.5em;
 }
+
 
 
 /* link styles */
@@ -126,6 +126,12 @@ img.displayed
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
+}
+
+#experience li
+{
+	padding-left: 10px;
+	margin-left: 5em;
 }
 
 /* Div style for nav bar */
