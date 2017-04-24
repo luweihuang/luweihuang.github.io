@@ -123,9 +123,10 @@ iframe
 img.displayed
 {
 	display: block;
+	margin-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 #experience li
